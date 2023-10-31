@@ -19,9 +19,19 @@ hr{
 
 .home .content{
     line-height: 40px;
+    text-align: justify;
+    margin-left: 70px;
+    margin-right: 70px;
+    background-color: #fff;
 }
+
+.home .content span{
+    font-size: 4rem;
+}
+
 .home .content h2{
     text-decoration: underline;
+    text-align: center;
     
 }
 
@@ -75,13 +85,15 @@ hr{
     padding-bottom: 10px;
 }
 
+
+
 .parallax-inner .content h2{
     font-family: 'Dancing Script', cursive;
     font-size: 50px;
 }
 
 .content {
-    background-color: #fff;
+    background-color: #fffae4;
     padding-top: 20px;
     text-align: center;
 }
