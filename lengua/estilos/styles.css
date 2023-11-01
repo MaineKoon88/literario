@@ -6,7 +6,18 @@
     font-family: 'Roboto', sans-serif;
  }
 
+ 
 
+
+.home{
+    padding-bottom: 70px;
+}
+.home .logo{
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    transform: translateY(-7rem);
+}
  .home h1{
     font-family: 'Dancing Script', cursive;
     font-size: 6rem;
@@ -23,6 +34,7 @@ hr{
     margin-left: 70px;
     margin-right: 70px;
     background-color: #fff;
+    
 }
 
 .home .content span{
@@ -33,7 +45,42 @@ hr{
     text-decoration: underline;
     text-align: center;
     
+    
+    
 }
+.home .greet{
+    background-color:#fffae4 ;
+    background-size: cover;
+    margin-left: 170px;
+    margin-right: 170px;
+}
+
+.home .salute{
+    transform: translateY(-8rem);
+    font-size: 20px;
+}
+
+.home .greet .salute{
+    font-size: 1rem;
+}
+.papel-rasgado {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    
+    width: auto; 
+    z-index: 1; /* Asegura que la imagen esté sobre otros elementos */
+    transform: translate(170px, 107rem);
+    
+    
+    
+}
+
+.papel-rasgado img{
+    width: 1004px;
+}
+
+
 
  body {
     
@@ -96,6 +143,7 @@ hr{
     background-color: #fffae4;
     padding-top: 20px;
     text-align: center;
+    border-radius: 5px;
 }
 
 h1 {
